@@ -1,5 +1,5 @@
 # HTML & CSS & JS project
-## ekaterinamuz.github.io/pulse/
+## https://ekaterinamuz.github.io/pulse/
 
 * Slick-slider
 * Interacive tabs and animated cards
