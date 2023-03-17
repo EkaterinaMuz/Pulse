@@ -1,0 +1,62 @@
+.promo
+    min-height: 650px
+    padding: 24px 0 93px
+    background: url('../../img/bg1.png') center center/cover no-repeat
+
+    &__wrapper
+        display: flex
+        flex-direction: column
+        align-items: flex-end
+        margin-top: 91px
+
+    &__title 
+        font-size: 42px
+        font-weight: 700
+        color: #fff
+        text-transform: uppercase
+
+    &__subtitle
+        margin: 0
+        font-size: 24px
+        font-weight: 700
+        color: #fff
+        text-transform: uppercase
+
+    &__button 
+        @include button
+        margin-top: 67px
+        width: 300px
+        height: 50px
+        font-size: 16px
+
+    &__icons
+        display: flex
+        justify-content: space-between
+        align-items: center
+        margin-top: 65px
+        width: 424px
+    
+    &__icon
+        width: 108px
+        font-size: 14px
+        text-align: center
+        color: #fff
+
+        img
+            display: block
+            margin: 0 auto
+            margin-bottom: 10px
+
+    &__link
+        margin-top: 18px
+        font-size: 16px
+        color: #fff
+        a
+            text-transform: uppercase
+            text-decoration: underline
+            transition: 1s all
+            &:hover
+                color: $color_main
+
+
+        
